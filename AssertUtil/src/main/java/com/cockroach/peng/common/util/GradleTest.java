@@ -5,7 +5,7 @@
 package com.cockroach.peng.common.util;
 
 /**
- * gradel test 
+ * gradle test 
  * 
  * @author gangqiang.pgq
  * @version $Id: GradleTest.java, v 0.1 2016年3月19日 上午12:41:18 gangqiang.pgq Exp $
