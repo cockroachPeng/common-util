@@ -2,7 +2,7 @@
  * cockroachPeng.com Inc.
  * Copyright (c) 2004-2016 All Rights Reserved.
  */
-package com.cockroach.peng.common.util.String;
+package com.cockroach.peng.common.util.string;
 
 import org.apache.commons.lang3.StringUtils;
 

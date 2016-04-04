@@ -2,7 +2,7 @@
  * cockroachPeng.com Inc.
  * Copyright (c) 2004-2016 All Rights Reserved.
  */
-package com.cockroach.peng.common.util.Date;
+package com.cockroach.peng.common.util.date;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -10,8 +10,8 @@ import java.util.Date;
 
 import org.apache.commons.lang3.time.DateUtils;
 
-import com.cockroach.peng.common.util.Exception.MyException;
-import com.cockroach.peng.common.util.String.StringUtil;
+import com.cockroach.peng.common.util.exception.MyException;
+import com.cockroach.peng.common.util.string.StringUtil;
 
 /**
  * <p>日期（{@link Date}）工具类，扩展自{@code DateUtils}</p>
@@ -94,7 +94,7 @@ public class DateUtil extends DateUtils {
     public static String date2Str(Date date, String format) {
 
         try {
-            Date dateTmp = (date == null ? date : new Date());
+            Date dateTmp = (date == null ? new Date() : date);
 
             String formatTmp = StringUtil.defaultString(format, DateFormatConstants.NORMAL);
 

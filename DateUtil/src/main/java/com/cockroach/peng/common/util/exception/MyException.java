@@ -2,7 +2,7 @@
  * cockroachPeng.com Inc.
  * Copyright (c) 2004-2016 All Rights Reserved.
  */
-package com.cockroach.peng.common.util.Exception;
+package com.cockroach.peng.common.util.exception;
 
 /**
  * <p>异常</p>
